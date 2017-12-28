@@ -1924,7 +1924,7 @@ paths:
         404:
           description: HeaderMenu not found
 
-  '/home-module':
+  /home-module:
     post:
       tags:
       - HomeModule
@@ -1987,7 +1987,7 @@ paths:
         in: "query"
         required: false
         schema:
-          type: boolean
+          type: string
           default: true
       responses:
         200:
